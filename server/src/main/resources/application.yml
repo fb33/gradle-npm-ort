@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: prod
+  application:
+    name: dummy-web
+
+server:
+  port: ${PORT:8090}
+
+app:
+  version:
+    number: \@version\@

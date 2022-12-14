@@ -1,0 +1,17 @@
+
+continuous-delivery
+
+.idea
+.git
+.gitignore
+.java-version
+*.iml
+*.log
+server/.gradle
+docker-compose.yml
+.env
+client/build
+client/node_modules
+client/*.log
+
+README.adoc
